@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pemancingangalatama">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".EditUserActivity"></activity>
+        <activity android:name=".KelolaUserActivity" />
+        <activity android:name=".EditInformasiActivity" />
+        <activity android:name=".KelolaInformasiActivity" />
+        <activity android:name=".EditBeritaActivity" />
+        <activity android:name=".TambahBeritaActivity" />
+        <activity android:name=".KelolaBeritaActivity" />
+        <activity android:name=".SetBangkuActivity" />
+        <activity android:name=".ValidasiPembayaranActivity" />
+        <activity android:name=".KelolaPesananActivity" />
+        <activity android:name=".LoginAdminActivity" />
+        <activity android:name=".HomeAdminActivity" />
+        <activity android:name=".InformasiUserActivity" />
+        <activity android:name=".TransferActivity" />
+        <activity android:name=".TransaksiActivity" />
+        <activity android:name=".PembayaranActivity" />
+        <activity android:name=".PesanActivity" />
+        <activity android:name=".DetailBeritaActivity" />
+        <activity android:name=".HomeUserActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

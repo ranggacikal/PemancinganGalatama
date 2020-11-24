@@ -1,0 +1,48 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="15dp"
+    app:cardUseCompatPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JUMLAH BANGKU YANG TERSEDIA SAAT INI"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/text_jumlah_bangku_informasi_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KURSI"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

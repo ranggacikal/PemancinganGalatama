@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/text_id_pemesanan_admin"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="XXXX"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_jam_pemesanan_admin"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="00.00 - 00.00"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_tanggal_pemesanan_admin"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="00 Januari 0000"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_jumlah_pesanan_admin"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="1/2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_total_harga_pemesanan_admin"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Rp. 150000"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_status_pemesanan_admin"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Belum/Sudah Transfer"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_validasi_pemesanan_admin"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Validasi"
+            android:background="@drawable/button_register"
+            android:textColor="#FFF"
+            android:textSize="5sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_belum_bayar_pemesanan_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Belum Melakukan Pembayaran"
+            android:textSize="8sp"
+            android:textColor="#000"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/text_pemesanan_selesai_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Pemesanan Sudah Selesai"
+            android:textSize="8sp"
+            android:textColor="#000"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_set_bangku_pemesanan_admin"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="Set Bangku"
+            android:background="@drawable/button_login"
+            android:textColor="#FFF"
+            android:textSize="5sp"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

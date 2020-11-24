@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/logogalatama"
+            android:layout_marginTop="60dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+
+            <EditText
+                android:id="@+id/edt_username_login"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:hint="Username"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:textColorHint="#FF808080"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/edt_password_login"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:hint="Password"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="#FF808080"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_login"
+            android:text="LOGIN"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_register_login"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:text="REGISTER"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:background="@drawable/button_register"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lupa Password?"
+                android:textSize="17sp"
+                android:textColor="#000000"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/lupa_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Klik Di sini!"
+                android:textColor="#2604DC"/>
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+</ScrollView>

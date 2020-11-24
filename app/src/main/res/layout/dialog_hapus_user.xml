@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FF0000">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah Anda Yakin Untuk Menghapus User?"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#FF0000">
+
+            <TextView
+                android:id="@+id/text_iya_hapus_user"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:text="IYA"
+                android:textSize="15sp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/text_tidak_hapus_user"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:text="TIDAK"
+                android:textSize="15sp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

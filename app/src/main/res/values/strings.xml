@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PemancinganGalatama</string>
+
+    <string-array name="level">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
